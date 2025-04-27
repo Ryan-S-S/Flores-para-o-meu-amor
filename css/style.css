@@ -1325,3 +1325,24 @@ body {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
 }
+
+#botaoDesmutar {
+  /* Posicionamento fixo na tela */
+  position: fixed;
+  top: 10px; /* Distância do topo da tela */
+  right: 10px; /* Distância da direita da tela */
+  /* ou left: 10px; para posicionar na esquerda */
+  /* ou bottom: 10px; para posicionar na parte inferior */
+
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  /* Garante que o botão fique acima de outros elementos */
+  z-index: 1000; /* Um valor alto para garantir a sobreposição */
+}
