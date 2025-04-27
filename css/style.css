@@ -1675,7 +1675,7 @@ body {
   /* Mantém a largura máxima */
   width: 90%;
   /* Usa 90% da largura da tela até o max-width */
-  height: 94%;
+  height: 90%;
   background-color: #ffffff00;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(253, 253, 253, 0.15);
